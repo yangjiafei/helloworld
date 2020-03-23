@@ -1,3 +1,17 @@
 {
-  "name":"yangjiafei/helloworld"
+  "name":"yangjiafei/helloworld",
+  "description": "this is test",
+  "authors": [
+    {
+      "name": "yangjiafei",
+      "email": "yangjiafei@163.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "yangjiafei\\helloword\\": "src/"
+    }
+  }
 }
